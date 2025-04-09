@@ -3,23 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>About Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #4CAF50;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            background: #fff;
+            margin: 0.5rem 0;
+            padding: 0.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        ul li a:hover {
+            text-decoration: underline;
+        }
+
+        p {
+            margin: 1rem 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>About Me</h1>
-    <p>My name is Shashank Sreepathi</p>
+    <header>
+        <h1>About Me</h1>
+    </header>
+    <main>
+        <p>My name is Shashank Sreepathi</p>
 
+        <h2>Favorite Sports</h2>
+        <ul>
+            <li><a href="https://www.nfl.com/">Football</a> - A thrilling game of strategy and athleticism.</li>
+            <li><a href="https://www.icc-cricket.com/">Cricket</a> - A gentleman's game enjoyed worldwide.</li>
+            <li><a href="https://www.nba.com/">Basketball</a> - Fast-paced and high-scoring action.</li>
+            <li><a href="https://www.fifa.com/">Soccer</a> - The world's most popular sport.</li>
+        </ul>
 
-    <h2>Favorite Sports</h2>
-    <ul>
-        <li><a href="https://www.nfl.com/">Football</a></li>
-        <li><a href="https://www.icc-cricket.com/">Cricket</a></li>
-    </ul>
-
-    <h2>Favorite CSE Classes</h2>
-    <ul>
-        <li><a href="https://www.cs.washington.edu/cse451">OS</a></li>
-        <li><a href="https://www.coursera.org/learn/cs50ai">CS50 AI</a></li>
-    </ul>
+        <h2>Favorite CSE Classes</h2>
+        <ul>
+            <li><a href="https://www.cs.washington.edu/cse451">OS</a></li>
+            <li><a href="https://www.coursera.org/learn/cs50ai">CS50 AI</a></li>
+        </ul>
+    </main>
+    <footer>
+        &copy; 2023 Shashank Sreepathi
+    </footer>
 </body>
 </html>
